@@ -1,8 +1,9 @@
 export const personal = {
   name: "André",
-  fullName: "André Luís de Souza Costa",
+  shortName: "André Luis",
+  fullName: "André Luis de Souza Costa",
   role: "Assistente Administrativo",
-  focus: "Disponível para Home Office",
+  focus: "Home Office · Presencial em Vianópolis/GO",
   headline:
     "Experiência em escritório de advocacia, atendimento ao cliente e rotina administrativa completa — com facilidade para tecnologia e disposição para aprender.",
   location: "Vianópolis, Goiás",
@@ -70,22 +71,18 @@ export const personal = {
 
   projects: [
     {
-      title: "Controle de Cobranças",
+      title: "Ciclo de Estudos Estratégico",
       description:
-        "Planilha de acompanhamento de cobranças e contas a receber usada para organizar os recebimentos do escritório.",
-      tag: "Organização",
+        "Gerenciador de estudos via terminal (CLI) em Python, com priorização algorítmica de matérias, repetição espaçada (SM2), grupos de estudo e sincronização em nuvem via Supabase.",
+      tag: "Python",
+      link: "https://github.com/nissincjs/Gerencicador-de-estudos",
     },
     {
-      title: "Padronização de Documentos",
+      title: "Momentum — Rastreador de Hábitos",
       description:
-        "Modelos padronizados de petições e documentos que aceleravam a rotina e evitavam erros.",
-      tag: "Documentos",
-    },
-    {
-      title: "Rotina de Atendimento",
-      description:
-        "Fluxo de atendimento a clientes com registro de contatos, prazos e retornos para nunca deixar ninguém sem resposta.",
-      tag: "Atendimento",
+        "Site de gerenciamento de hábitos para acompanhar metas e rotinas diárias, publicado na Vercel.",
+      tag: "Web",
+      link: "https://momentumtrackerhabit.vercel.app/",
     },
   ],
 

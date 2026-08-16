@@ -15,7 +15,8 @@ export default function Hero() {
           </span>
 
           <h1 className="mt-6 font-serif text-4xl font-semibold leading-tight text-ink md:text-6xl">
-            Olá, eu sou <span className="text-accent">{personal.name}.</span>
+            Olá, eu sou{" "}
+            <span className="text-accent">{personal.fullName}.</span>
           </h1>
 
           <p className="mt-3 font-serif text-2xl font-medium text-body md:text-3xl">

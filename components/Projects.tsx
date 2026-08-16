@@ -6,14 +6,16 @@ export default function Projects() {
   return (
     <Section
       id="projetos"
-      title="Trabalhos e portfólio"
-      subtitle="Exemplos de organização e trabalho prático que desenvolvi no dia a dia. (Você pode trocar pelos seus exemplos reais.)"
+      title="Projetos"
+      subtitle="Projetos que desenvolvi para resolver problemas do dia a dia — da organização de estudos ao rastreamento de hábitos."
     >
-      <div className="grid gap-6 md:grid-cols-3">
+      <div className="mx-auto grid max-w-3xl gap-6 md:grid-cols-2">
         {personal.projects.map((project) => (
           <a
             key={project.title}
-            href="#contato"
+            href={project.link}
+            target="_blank"
+            rel="noopener noreferrer"
             className="group flex flex-col justify-between rounded-2xl border border-line p-7 transition-colors hover:border-accent/40"
           >
             <div>

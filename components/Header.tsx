@@ -20,7 +20,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 border-b border-line bg-white/85 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-5xl items-center justify-between px-6">
         <a href="#inicio" className="font-serif text-xl font-semibold text-accent">
-          {personal.name}.
+          {personal.shortName}.
         </a>
 
         <nav className="hidden items-center gap-7 md:flex">
