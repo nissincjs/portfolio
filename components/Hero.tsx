@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import { ArrowDown, User } from "lucide-react";
 import { personal } from "@/data/personal";
@@ -54,7 +56,9 @@ export default function Hero() {
               width={1086}
               height={1086}
               priority
-              className="h-72 w-72 rounded-3xl object-cover shadow-lg md:h-80 md:w-80"
+              draggable={false}
+              onContextMenu={(e) => e.preventDefault()}
+              className="h-72 w-72 select-none rounded-3xl object-cover shadow-lg [-webkit-touch-callout:none] md:h-80 md:w-80"
             />
           ) : (
             <div className="flex h-72 w-72 items-center justify-center rounded-3xl border-2 border-dashed border-line bg-accent-soft md:h-80 md:w-80">
