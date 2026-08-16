@@ -2,7 +2,7 @@ import { Mail, MessageCircle, ExternalLink, Clock } from "lucide-react";
 import Section from "@/components/Section";
 import { personal } from "@/data/personal";
 
-const contactOptions = [
+const rawOptions = [
   {
     label: "WhatsApp",
     value: personal.contacts.whatsappDisplay,
@@ -24,13 +24,17 @@ const contactOptions = [
 ];
 
 export default function Contact() {
+  const contactOptions = rawOptions.filter((option) => option.href !== "");
+  const columns =
+    contactOptions.length === 2 ? "md:grid-cols-2" : "md:grid-cols-3";
+
   return (
     <Section
       id="contato"
       title="Vamos conversar?"
       subtitle="Respondo rápido. Estou disponível para entrevistas e para começar a trabalhar em home office."
     >
-      <div className="grid gap-6 md:grid-cols-3">
+      <div className={`grid gap-6 ${columns}`}>
         {contactOptions.map((option) => (
           <a
             key={option.label}

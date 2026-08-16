@@ -1,16 +1,16 @@
 export const personal = {
   name: "André",
-  fullName: "André (seu sobrenome)",
+  fullName: "André Luís de Souza Costa",
   role: "Assistente Administrativo",
   focus: "Disponível para Home Office",
   headline:
-    "Profissional de administração com experiência completa em escritório de advocacia e um histórico forte em atendimento ao cliente.",
-  location: "Brasil",
+    "Experiência em escritório de advocacia, atendimento ao cliente e rotina administrativa completa — com facilidade para tecnologia e disposição para aprender.",
+  location: "Vianópolis, Goiás",
   availability: "Disponível para início imediato",
 
   about: [
-    "Atuei como assistente administrativo em um escritório de advocacia, onde tinha rotina variada e de responsabilidade: redigia petições e documentos jurídicos, atendia clientes presencialmente e por telefone, cuidava das cobranças e das contas a receber, organizava agenda e prazos e tocava a rotina administrativa do dia a dia.",
-    "Hoje busco uma oportunidade em home office para aplicar essa experiência com organização, autonomia e atendimento de qualidade — e estou sempre aberto a aprender novas ferramentas e processos digitais.",
+    "Atuei como assistente jurídico em um escritório de advocacia, com rotina variada e de responsabilidade: atendimento a clientes, organização de documentos, redação de petições, controle de cobranças e uso diário de sistemas de computador (Projudi, PJe e e-SAJ).",
+    "Tenho facilidade com tecnologia, disposição para aprender os processos de qualquer empresa e experiência no trato direto com o público. Hoje busco uma oportunidade em home office para aplicar essa experiência com organização, autonomia e atendimento de qualidade.",
   ],
 
   highlights: [
@@ -22,29 +22,17 @@ export const personal = {
 
   experience: [
     {
-      role: "Assistente Administrativo",
-      company: "Escritório de Advocacia",
-      period: "20XX — 20XX",
+      role: "Assistente Jurídico",
+      company: "Alisson Borges Sociedade Individual de Advocacia",
+      period: "2025 — 2026",
       description:
-        "Rotina administrativa completa, com contato direto com clientes e apoio jurídico.",
+        "Rotina administrativa e jurídica completa, com atendimento a clientes e uso diário de sistemas de computador.",
       items: [
-        "Redação e protocolo de petições e documentos jurídicos",
         "Atendimento a clientes presencial, por telefone e WhatsApp",
-        "Controle de cobranças, contas a receber e recebimentos",
-        "Organização de agenda, prazos, arquivos e documentos",
-        "Gestão da rotina administrativa do escritório",
-      ],
-    },
-    {
-      role: "Experiência em Atendimento ao Cliente",
-      company: "Atendimento presencial e online",
-      period: "Período a preencher",
-      description:
-        "Anos de contato direto com o público, sempre focado em resolver e encantar.",
-      items: [
-        "Atendimento ao público com foco em solução de problemas",
-        "Negociação, orientação e pós-atendimento",
-        "Registro e acompanhamento de solicitações e retornos",
+        "Redação de petições, organização de documentos e apoio jurídico",
+        "Controle de cobranças, contas a receber e pendências do escritório",
+        "Uso diário de sistemas (Projudi, PJe e e-SAJ) e planilhas de Excel",
+        "Registro e acompanhamento de solicitações, retornos e contatos telefônicos",
       ],
     },
   ],
@@ -54,27 +42,27 @@ export const personal = {
       category: "Atendimento ao Cliente",
       items: [
         "Comunicação clara e empática",
-        "Atendimento presencial e online",
-        "Negociação e pós-venda",
+        "Atendimento presencial, por telefone e online",
+        "Negociação e orientação",
         "Resolução de problemas",
       ],
     },
     {
-      category: "Administrativo",
+      category: "Administrativo e Jurídico",
       items: [
-        "Redação de petições e documentos",
-        "Controle de cobranças e financeiro",
-        "Agenda, prazos e prioridades",
-        "Arquivo e gestão documental",
+        "Petições e documentos jurídicos",
+        "Sistemas Projudi, PJe e e-SAJ",
+        "Controle de cobranças e organização",
+        "Agenda, prazos e arquivo",
       ],
     },
     {
-      category: "Tecnologia (nível médio)",
+      category: "Tecnologia",
       items: [
         "Pacote Office (Word, Excel)",
-        "E-mail, calendário e WhatsApp",
         "Planilhas e controle de dados",
-        "Videoconferência (Zoom, Meet)",
+        "E-mail, calendário e WhatsApp",
+        "Inglês básico (autodidata)",
       ],
     },
   ],
@@ -101,9 +89,9 @@ export const personal = {
   ],
 
   contacts: {
-    email: "seuemail@gmail.com",
-    whatsapp: "https://wa.me/5500000000000",
-    whatsappDisplay: "+55 (00) 00000-0000",
-    linkedin: "https://www.linkedin.com/in/seuperfil",
+    email: "andreluisdesouzacosta@gmail.com",
+    whatsapp: "https://wa.me/5562996860252",
+    whatsappDisplay: "+55 (62) 99686-0252",
+    linkedin: "",
   },
 };
