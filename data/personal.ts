@@ -5,7 +5,7 @@ export const personal = {
   role: "Assistente Administrativo",
   focus: "Home Office · Presencial em Vianópolis/GO",
   headline:
-    "Experiência em escritório de advocacia, atendimento ao cliente e rotina administrativa completa — com facilidade para tecnologia e disposição para aprender.",
+    "Experiência em escritório de advocacia, atendimento ao cliente e rotina administrativa completa, com facilidade para tecnologia e disposição para aprender.",
   location: "Vianópolis, Goiás",
   availability: "Disponível para início imediato",
   photo: "",
@@ -26,7 +26,7 @@ export const personal = {
     {
       role: "Assistente Jurídico",
       company: "Alisson Borges Sociedade Individual de Advocacia",
-      period: "2025 — 2026",
+      period: "2025 a 2026",
       description:
         "Rotina administrativa e jurídica completa, com atendimento a clientes e uso diário de sistemas de computador.",
       items: [
@@ -78,7 +78,7 @@ export const personal = {
       link: "https://github.com/nissincjs/Gerencicador-de-estudos",
     },
     {
-      title: "Momentum — Rastreador de Hábitos",
+      title: "Momentum · Rastreador de Hábitos",
       description:
         "Site de gerenciamento de hábitos para acompanhar metas e rotinas diárias, publicado na Vercel.",
       tag: "Web",
