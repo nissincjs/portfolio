@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { ArrowDown, Sparkles, User } from "lucide-react";
+import { ArrowDown, User } from "lucide-react";
 import { personal } from "@/data/personal";
 
 export default function Hero() {
@@ -9,12 +9,7 @@ export default function Hero() {
     <section id="inicio" className="relative overflow-hidden">
       <div className="mx-auto flex max-w-5xl flex-col items-center gap-10 px-6 pb-24 pt-16 md:flex-row md:items-start md:justify-between md:pb-32 md:pt-24">
         <div className="flex flex-col items-start">
-          <span className="inline-flex items-center gap-2 rounded-full border border-line bg-accent-soft px-3 py-1 text-xs font-medium text-accent">
-            <Sparkles className="h-3.5 w-3.5" />
-            {personal.availability}
-          </span>
-
-          <h1 className="mt-6 font-serif text-4xl font-semibold leading-tight text-ink md:text-6xl">
+          <h1 className="font-serif text-4xl font-semibold leading-tight text-ink md:text-6xl">
             Olá, eu sou{" "}
             <span className="text-accent">{personal.fullName}.</span>
           </h1>
