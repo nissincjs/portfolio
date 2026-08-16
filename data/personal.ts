@@ -8,7 +8,7 @@ export const personal = {
     "Experiência em escritório de advocacia, atendimento ao cliente e rotina administrativa completa, com facilidade para tecnologia e disposição para aprender.",
   location: "Vianópolis, Goiás",
   availability: "Disponível para início imediato",
-  photo: "",
+  photo: "/foto.png",
 
   about: [
     "Atuei como assistente jurídico em um escritório de advocacia, com rotina variada e de responsabilidade: atendimento a clientes, organização de documentos, redação de petições, controle de cobranças e uso diário de sistemas de computador (Projudi, PJe e e-SAJ).",

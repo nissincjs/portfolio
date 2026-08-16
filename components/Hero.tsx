@@ -51,8 +51,8 @@ export default function Hero() {
             <Image
               src={personal.photo}
               alt={personal.fullName}
-              width={288}
-              height={360}
+              width={640}
+              height={640}
               priority
               className="h-72 w-72 rounded-3xl object-cover shadow-lg md:h-80 md:w-80"
             />
