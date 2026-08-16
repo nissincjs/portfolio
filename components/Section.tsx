@@ -20,7 +20,7 @@ export default function Section({ id, title, subtitle, children }: SectionProps)
                 : id === "habilidades"
                   ? "O que eu sei fazer"
                   : id === "projetos"
-                    ? "Portfólio"
+                    ? "Trabalhos"
                     : "Contato"}
           </p>
           <h2 className="mt-3 font-serif text-3xl font-semibold text-ink md:text-4xl">

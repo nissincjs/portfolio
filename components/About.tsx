@@ -16,7 +16,7 @@ export default function About() {
           ))}
         </div>
 
-        <div className="rounded-2xl border border-line bg-accent-soft p-8">
+        <div className="self-start rounded-2xl border border-line bg-accent-soft p-8">
           <h3 className="font-serif text-xl font-semibold text-accent">
             Meus diferenciais
           </h3>

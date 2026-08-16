@@ -9,7 +9,7 @@ export default function Projects() {
       title="Projetos"
       subtitle="Projetos que desenvolvi para resolver problemas do dia a dia — da organização de estudos ao rastreamento de hábitos."
     >
-      <div className="mx-auto grid max-w-3xl gap-6 md:grid-cols-2">
+      <div className="grid max-w-3xl gap-6 md:grid-cols-2">
         {personal.projects.map((project) => (
           <a
             key={project.title}
