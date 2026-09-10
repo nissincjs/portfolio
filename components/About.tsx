@@ -1,4 +1,3 @@
-import { Check } from "lucide-react";
 import Section from "@/components/Section";
 import { personal } from "@/data/personal";
 
@@ -16,16 +15,17 @@ export default function About() {
           ))}
         </div>
 
-        <div className="self-start w-max rounded-2xl border border-line bg-accent-soft p-6">
-          <h3 className="font-serif text-xl font-semibold text-accent">
+        <div className="w-full">
+          <p className="text-xs font-semibold uppercase tracking-widest text-accent">
             Meus diferenciais
-          </h3>
-          <ul className="mt-6 space-y-4">
+          </p>
+          <ul className="mt-6 space-y-3">
             {personal.highlights.map((item) => (
-              <li key={item} className="flex items-start gap-3 text-sm text-ink">
-                <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-accent text-white">
-                  <Check className="h-3 w-3" />
-                </span>
+              <li
+                key={item}
+                className="flex items-start gap-3 text-sm leading-relaxed text-ink"
+              >
+                <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-accent" />
                 {item}
               </li>
             ))}

@@ -3,7 +3,7 @@ export const personal = {
   shortName: "André Luis",
   fullName: "André Luis de Souza Costa",
   role: "Profissional Administrativo e Atendimento",
-  focus: "Presencial em Vianópolis e Goiânia/GO · Remoto ou híbrido",
+  focus: "Presencial em Vianópolis e Goiânia/GO · Híbrido ou remoto",
   headline:
     "Experiência em rotina administrativa, atendimento ao cliente e organização de processos, com facilidade para aprender sistemas e foco em fazer o trabalho bem feito.",
   location: "Vianópolis e Goiânia, Goiás",

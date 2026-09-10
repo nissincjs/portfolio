@@ -35,7 +35,7 @@ export default function Contact() {
     <Section
       id="contato"
       title="Vamos conversar?"
-      subtitle="Respondo rápido. Estou disponível para entrevistas e para começar a trabalhar de forma remota, híbrida ou presencial em Vianópolis e Goiânia/GO."
+      subtitle="Respondo rápido. Estou disponível para entrevistas e para começar a trabalhar de forma presencial em Vianópolis e Goiânia/GO, híbrida ou remota."
     >
       <div className={`grid gap-6 ${columns}`}>
         {contactOptions.map((option) => (
