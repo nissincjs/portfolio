@@ -1,0 +1,7 @@
+services:
+  portfolio:
+    build: .
+    image: portfolio:latest
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:3003:3000"

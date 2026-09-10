@@ -6,8 +6,8 @@ export default function About() {
   return (
     <Section
       id="sobre"
-      title="Um profissional de rotina, organização e gente."
-      subtitle="Experiência prática em ambiente de escritório e uma missão simples: fazer o trabalho bem feito e atender bem."
+      title="Organização, atendimento e trabalho bem feito."
+      subtitle="Experiência prática em rotina administrativa e contato direto com o público, com foco em organização, resolução de problemas e atendimento de qualidade."
     >
       <div className="grid gap-12 md:grid-cols-2">
         <div className="space-y-5 text-base leading-relaxed text-body">

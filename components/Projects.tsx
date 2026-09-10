@@ -6,8 +6,8 @@ export default function Projects() {
   return (
     <Section
       id="projetos"
-      title="Projetos"
-      subtitle="Projetos que desenvolvi para resolver problemas do dia a dia, da organização de estudos ao rastreamento de hábitos."
+      title="Projetos e iniciativas"
+      subtitle="Iniciativas pessoais que mostram organização, disciplina e resolução de problemas, da gestão de estudos à criação de ferramentas próprias."
     >
       <div className="grid max-w-3xl gap-6 md:grid-cols-2">
         {personal.projects.map((project) => (

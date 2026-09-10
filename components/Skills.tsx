@@ -6,7 +6,7 @@ export default function Skills() {
     <Section
       id="habilidades"
       title="Habilidades"
-      subtitle="O que eu sei fazer bem: do atendimento à rotina administrativa, passando pelo computador."
+      subtitle="Competências que se aplicam a diferentes áreas: atendimento, organização administrativa e facilidade com tecnologia."
     >
       <div className="grid gap-6 md:grid-cols-3">
         {personal.skills.map((group) => (

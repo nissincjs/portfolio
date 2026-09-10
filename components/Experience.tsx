@@ -7,7 +7,7 @@ export default function Experience() {
     <Section
       id="experiencia"
       title="Experiência profissional"
-      subtitle="Atuação prática em escritório e anos de contato direto com o público."
+      subtitle="Atuação em rotina administrativa e contato direto com o público."
     >
       <div className="space-y-12">
         {personal.experience.map((job) => (

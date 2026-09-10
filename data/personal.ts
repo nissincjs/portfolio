@@ -2,68 +2,72 @@ export const personal = {
   name: "André",
   shortName: "André Luis",
   fullName: "André Luis de Souza Costa",
-  role: "Assistente Administrativo",
-  focus: "Home Office · Presencial em Vianópolis/GO",
+  role: "Profissional Administrativo e Atendimento",
+  focus: "Presencial em Vianópolis e Goiânia/GO · Remoto ou híbrido",
   headline:
-    "Experiência em escritório de advocacia, atendimento ao cliente e rotina administrativa completa, com facilidade para tecnologia e disposição para aprender.",
-  location: "Vianópolis, Goiás",
+    "Experiência em rotina administrativa, atendimento ao cliente e organização de processos, com facilidade para aprender sistemas e foco em fazer o trabalho bem feito.",
+  location: "Vianópolis e Goiânia, Goiás",
   availability: "Disponível para início imediato",
   photo: "/foto.png",
 
   about: [
-    "Atuei como assistente jurídico em um escritório de advocacia, com rotina variada e de responsabilidade: atendimento a clientes, organização de documentos, redação de petições, controle de cobranças e uso diário de sistemas de computador (Projudi, PJe e e-SAJ).",
-    "Tenho facilidade com tecnologia, disposição para aprender os processos de qualquer empresa e experiência no trato direto com o público. Hoje busco uma oportunidade em home office para aplicar essa experiência com organização, autonomia e atendimento de qualidade.",
+    "Tenho experiência em rotina administrativa e atendimento ao público: organização de documentos e informações, controle de cobranças e contas a receber, acompanhamento de pendências e suporte direto a clientes por telefone, WhatsApp e presencialmente.",
+    "Sou organizado, comunicativo e tenho facilidade para aprender novos sistemas e processos. Busco uma oportunidade em que eu possa contribuir com atendimento de qualidade, organização e resolução de problemas, seja no administrativo, no comercial ou no suporte ao cliente.",
   ],
 
   highlights: [
     "Comunicação clara e empática",
     "Organização e atenção a detalhes",
     "Autonomia e comprometimento",
-    "Aprendizado rápido de sistemas",
+    "Facilidade para aprender sistemas",
+    "Boa relação interpessoal e trabalho em equipe",
   ],
 
   experience: [
     {
-      role: "Assistente Jurídico",
+      role: "Assistente Administrativo e Jurídico",
       company: "Alisson Borges Sociedade Individual de Advocacia",
       period: "2025 a 2026",
       description:
-        "Rotina administrativa e jurídica completa, com atendimento a clientes e uso diário de sistemas de computador.",
+        "Atuação em rotina administrativa e de atendimento ao cliente, com organização de documentos, controle de pendências e uso diário de sistemas.",
       items: [
         "Atendimento a clientes presencial, por telefone e WhatsApp",
-        "Redação de petições, organização de documentos e apoio jurídico",
-        "Controle de cobranças, contas a receber e pendências do escritório",
+        "Organização de documentos, arquivos e informações",
+        "Elaboração de documentos e apoio à rotina do escritório",
+        "Controle de cobranças, contas a receber e pendências",
         "Uso diário de sistemas (Projudi, PJe e e-SAJ) e planilhas de Excel",
-        "Registro e acompanhamento de solicitações, retornos e contatos telefônicos",
+        "Registro e acompanhamento de solicitações, retornos e contatos",
       ],
     },
   ],
 
   skills: [
     {
-      category: "Atendimento ao Cliente",
+      category: "Atendimento e Comunicação",
       items: [
+        "Atendimento presencial, telefone, WhatsApp e online",
         "Comunicação clara e empática",
-        "Atendimento presencial, por telefone e online",
+        "Relacionamento com clientes e suporte comercial",
         "Negociação e orientação",
-        "Resolução de problemas",
+        "Resolução de problemas e reclamações",
       ],
     },
     {
-      category: "Administrativo e Jurídico",
+      category: "Organização e Rotina Administrativa",
       items: [
-        "Petições e documentos jurídicos",
-        "Sistemas Projudi, PJe e e-SAJ",
-        "Controle de cobranças e organização",
-        "Agenda, prazos e arquivo",
+        "Rotinas de escritório, arquivo e documentos",
+        "Controle de cobranças e contas a receber",
+        "Agenda, prazos e acompanhamento de pendências",
+        "Planilhas e controle de dados",
       ],
     },
     {
-      category: "Tecnologia",
+      category: "Tecnologia e Aprendizado",
       items: [
         "Pacote Office (Word, Excel)",
-        "Planilhas e controle de dados",
+        "Sistemas de gestão (Projudi, PJe e e-SAJ)",
         "E-mail, calendário e WhatsApp",
+        "Aprendizado rápido de novas ferramentas",
         "Inglês básico (autodidata)",
       ],
     },
@@ -73,14 +77,14 @@ export const personal = {
     {
       title: "Ciclo de Estudos Estratégico",
       description:
-        "Gerenciador de estudos via terminal (CLI) em Python, com priorização algorítmica de matérias, repetição espaçada (SM2), grupos de estudo e sincronização em nuvem via Supabase.",
+        "Gerenciador de estudos via terminal (CLI) em Python, com priorização de matérias, repetição espaçada e sincronização em nuvem. Mostra iniciativa, organização e resolução de problemas.",
       tag: "Python",
       link: "https://github.com/nissincjs/Gerencicador-de-estudos",
     },
     {
       title: "Momentum · Rastreador de Hábitos",
       description:
-        "Site de gerenciamento de hábitos para acompanhar metas e rotinas diárias, publicado na Vercel.",
+        "Site de gerenciamento de hábitos para acompanhar metas e rotinas diárias, publicado na Vercel. Projeto pessoal de organização e disciplina.",
       tag: "Web",
       link: "https://momentumtrackerhabit.vercel.app/",
     },
@@ -90,6 +94,6 @@ export const personal = {
     email: "andreluisdesouzacosta@gmail.com",
     whatsapp: "https://wa.me/5562996860252",
     whatsappDisplay: "+55 (62) 99686-0252",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/andr%C3%A9-luis-69022625a/",
   },
 };

@@ -17,7 +17,10 @@ const rawOptions = [
   },
   {
     label: "LinkedIn",
-    value: personal.contacts.linkedin.replace("https://www.linkedin.com/in/", "linkedin.com/in/"),
+    value: decodeURIComponent(personal.contacts.linkedin).replace(
+      "https://www.linkedin.com/in/",
+      "linkedin.com/in/",
+    ),
     href: personal.contacts.linkedin,
     icon: ExternalLink,
   },
@@ -32,7 +35,7 @@ export default function Contact() {
     <Section
       id="contato"
       title="Vamos conversar?"
-      subtitle="Respondo rápido. Estou disponível para entrevistas e para começar a trabalhar em home office ou presencialmente em Vianópolis/GO."
+      subtitle="Respondo rápido. Estou disponível para entrevistas e para começar a trabalhar de forma remota, híbrida ou presencial em Vianópolis e Goiânia/GO."
     >
       <div className={`grid gap-6 ${columns}`}>
         {contactOptions.map((option) => (
